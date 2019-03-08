@@ -4,7 +4,7 @@
     - reserve unit
     - e-payment
 2. Back-end server
-    - Pub/Sub unit status (available/reserved)
+    - Pub/Sub unit status+passcode (available/reserved)
 3. locker node
     - reserve unit
     - coin payment & change
