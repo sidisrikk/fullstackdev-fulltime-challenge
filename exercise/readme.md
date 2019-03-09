@@ -1,12 +1,14 @@
-# Locker Archฯ
+# Locker Design
 
 1. Online reservation
-    - reserve unit
-    - e-payment
+    - reserve unit page + Sub unit status (available/reserved)
+    - e-payment page
+    - gql mutation for reservation
 2. Back-end server
-    - Pub/Sub unit status+passcode (available/reserved)
-    - payments confirm
+    - Pub unit status+passcode (available/reserved)
+    - payments confirm -> produce status + passcode
 3. locker node
-    - reserve unit
+    - Sub unit status+passcode (available/reserved)
+    - reserve unit page + Sub unit status + passcode (available/reserved)
     - coin payment & change
-    - passcode to unlock unit
+    - passcode to unlock unit page
