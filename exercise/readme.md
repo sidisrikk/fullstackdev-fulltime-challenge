@@ -1,6 +1,6 @@
 # Locker Design
 
-1. [Online reservation](https://github.com/sidisrikk/locker-web-reservation)
+1. [Online reservation](https://github.com/sidisrikk/locker-web-reservation) ** not implement yet
     - reserve unit page + Sub unit status (available/reserved)
     - e-payment page
     - gql mutation for reservation
